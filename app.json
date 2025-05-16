@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "test_app",
+    "slug": "test_app",
+    "version": "8.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E81F76"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "5",
+      "bundleIdentifier": "com.test_appapp"
+    },
+    "android": {
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#E81F76"
+      },
+      "versionCode": 6022,
+      "package": "com.test_appmobileapp",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "notification": {
+      "icon": "./assets/notificationicon.png",
+      "color": "#E81F76",
+      "iosDisplayInForeground": true,
+      "androidMode": "default",
+      "androidCollapsedTitle": "Updates from Colab.notes"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notificationicon.png",
+          "color": "#E81F76",
+          "iosDisplayInForeground": true,
+          "androidMode": "default",
+          "androidCollapsedTitle": "Updates from Colab.notes"
+        }
+      ],
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b0d1e8fa-d70f-4721-92a2-05beac2b4cae"
+      }
+    }
+  }
+}
